@@ -1,0 +1,25 @@
+name: easy_countdown_timer
+description: >
+  A customizable Flutter countdown timer widget with animated transitions.
+  Easily display days, hours, minutes, and seconds in a stylish, configurable format.
+version: 0.0.1
+homepage: https://github.com/houssemeddinefadhli81/easy-countdown-timer
+
+environment:
+  sdk: ^3.8.0
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+topics:
+  - countdown
+  - timer
+  - animation
+  - widget
