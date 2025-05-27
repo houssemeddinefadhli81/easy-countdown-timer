@@ -52,7 +52,11 @@ class _EasyCountdownTimerWidgetState extends State<EasyCountdownTimerWidget> {
   @override
   void initState() {
     super.initState();
-    _remaining = widget.duration;
+    if (widget.duration.isNegative) {
+      _remaining = Duration.zero;
+    } else {
+      _remaining = widget.duration;
+    }
     _startTimer();
   }
 

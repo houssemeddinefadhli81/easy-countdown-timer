@@ -1,8 +1,3 @@
-Here is a refined, emoji-free, professional, and GitHub-friendly README.md content for your Flutter package easy_countdown_timer. It follows best practices used by top open-source packages:
-
-⸻
-
-
 # Easy Countdown Timer
 
 A customizable Flutter countdown widget with smooth animations and flexible formatting. Display time in `DD:HH:MM:SS` format with control over styles, visibility, and callbacks — perfect for limited-time offers, product launches, sales, and other time-sensitive events.
@@ -24,7 +19,7 @@ Add the following line to your `pubspec.yaml` file:
 
 ```yaml
 dependencies:
-  easy_countdown_timer: ^0.0.2
+  easy_countdown_timer: ^0.0.4
 ```
 Then run:
 ```yaml
@@ -34,11 +29,11 @@ Usage
 
 Import the package:
 ```yaml
-import 'package:easy_countdown_timer/easy_countdown_timer.dart';
+import 'package:easy_countdown_timer/easy_countdown_timer_widget.dart';
 ```
 Use the widget:
 ```yaml
-CountdownTimerWidget(
+EasyCountdownTimerWidget(
   duration: Duration(days: 1, hours: 5, minutes: 30),
   digitTextStyle: TextStyle(fontSize: 28, fontWeight: FontWeight.bold),
   separatorTextStyle: TextStyle(fontSize: 28, color: Colors.grey),
@@ -56,7 +51,7 @@ Parameters
 |-----------------------|----------------|-----------|----------------------------------|
 | duration              | Duration       | —         | Countdown duration               |
 | digitTextStyle        | TextStyle?     | null      | Style for digit text             |
-| separatorTextStyle    | TextStyle?     | null      | Style for default : separator    |
+| separatorTextStyle    | TextStyle?     | null      | Style for the default separator  |
 | onFinished            | VoidCallback?  | null      | Called when the countdown ends   |
 | showDays              | bool           | true      | Show the day part                |
 | showHours             | bool           | true      | Show the hour part               |
@@ -80,11 +75,11 @@ Screenshots
 
 ![Countdown Preview](https://raw.githubusercontent.com/houssemeddinefadhli81/easy-countdown-timer/refs/heads/main/assets/screenshot.gif)
 
-License
+## License
 
 This project is licensed under the MIT License. See the LICENSE file for details.
 
-Contributions
+## Contributions
 
 Contributions are welcome. Please open issues or submit pull requests to help improve this package.
 

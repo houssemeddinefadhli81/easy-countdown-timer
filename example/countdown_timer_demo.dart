@@ -1,4 +1,4 @@
-import 'package:easy_countdown_timer/countdown_timer_widget.dart';
+import 'package:easy_countdown_timer/easy_countdown_timer_widget.dart';
 import 'package:flutter/material.dart';
 
 void main() {
